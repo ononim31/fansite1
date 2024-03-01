@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    /*border: 1px solid red;*/
+}
+
+.body {
+
+}
+
+.header {
+    background: #D9D9D9;
+    display: flex;
+    padding-bottom: 152px;
+}
+
+.header__logo {
+
+}
+
+.header__title {
+    margin-top: 119px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(180deg, #E0C226 0%, rgba(228, 144, 31, 0.92) 27.6%, rgba(233, 91, 23, 0.84) 56.77%, rgba(236, 53, 18, 0.78) 77.6%, rgba(239, 12, 12, 0.72) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 200px;
+}
+
+
+
+.header__title_color {
+}
+
+.header__contacnt-section {
+    margin-right: 72px;
+    margin-top: 59px;
+}
+
+.header__phone {
+    color: #000;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.header__youtube-logo {
+    margin-left: 14px;
+}
+
+.sale {
+    display: flex;
+    background-color: #E8ACAC;
+    flex-direction: column;
+}
+
+.sale__sale-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 83px;
+    margin-top: 222px;
+}
+
+.sale__wheel {
+    background-image: url(./media/wheel1.png);
+    width: 700px;
+    height: 473px;
+    /*margin-top: 255px;
+    margin-left: 650px;
+    margin-right: 90px;
+    margin-bottom: 298px;*/
+}
+.sale__title {
+    color: #9C946C;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+/* @media (max-width: 884px) {
+    .sale__title {
+        visibility: hidden;
+    }
+} */
+
+
+
+.sale__sale-section-img1 {
+    width: 473px;
+    height: 300px;
+}
+
+.sale__sale-section-img2 {
+    width: 356px;
+    height: 228px;
+    margin-top: 85px;
+    margin-left: 58px;
+}
+
+.sale__wheel-section {
+    margin-top: 33px;
+    margin-left: 94px;
+    margin-right: 90px;
+}
+
+.sale__sale-section-1 {
+    direction: column;
+    margin-bottom: 188px;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    background: #190202;
+}
+
+.shop__title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 138px;
+}
+
+.shop__section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 83px;
+    width: 877px;
+    height: 673px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shop__section-img {
+    width: 400px;
+    height: 300px;
+    transition: 1s;
+}
+
+.shop__section-img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+.footer {
+    width: 100%;
+    height: 387px;
+    background: #233A26;
+}
+
+@media (max-width: 1380px) {
+    .header__phone {
+        display: none;
+    }
+
+    .sale__sale-section-img1 {
+        width: 346px;
+        height: 263px;
+        margin-left: 67px;
+    }
+
+    .sale__sale-section-img2 {
+        width: 346px;
+        height: 228px;
+        margin-left: 67px;
+        margin-top: 37px;
+    }
+    
+    .sale__wheel {
+        width: 563px;
+        height: 528px;
+        margin-left: 29px;
+        margin-top: 0px;
+        margin-right: 75px;
+    }
+
+    .sale__wheel-section {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sale__sale-section-1 {
+        margin-right: 0;
+    }
+
+    .sale__sale-section {
+        margin-left: 0;
+    }
+
+    .shop__section-img {
+
+    }
+}
+
+@media (max-width: 1068px) {
+    .header__title {
+        display: none;
+    }
+
+    .header__logo {
+        width: 471px;
+        height: 216px;
+        margin-left: 139px;
+        margin-right: 73px;
+    }
+
+    .header {
+        height: 225px;
+        padding-bottom: 0;
+    }
+
+    .header__youtube-logo {
+        margin-left: 0;
+    }
+
+    .header__contacnt-section {
+        margin-right: 25px;
+    }
+
+    .sale__sale-section {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 98px;
+    }
+
+    .sale__sale-section-img1 {
+        width: 473px;
+        height: 300px;
+        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .sale__sale-section-img2 {
+        width: 473px;
+        height: 300px;
+        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sale__wheel {
+        width: 473px;
+        height: 367px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .sale__sale-section-1 {
+        margin-bottom: 30px;
+        margin-left: 137px;
+        margin-right: 0;
+    }
+
+    .shop__section {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 230px;
+        width: 400px;
+    }
+    .shop__section-img {
+        margin-bottom: 48px;
+    }
+    .sale__wheel-section {
+        margin-right: 0px;
+        display: flex;
+    }
+    .sale__sale-section-1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 760px) {
+    .header__logo {
+        width: 200px;
+        height: 92px;
+        margin-left: 80px;
+        margin-right: 16px;
+    }
+
+    .header__youtube-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header {
+        height: 92px;
+    }
+    .header__contacnt-section {
+        margin-top: 4px;
+        margin-left: 4px;
+        margin-right: 14px;
+    }
+    .sale__sale-section-img1 {
+        width: 311px;
+        height: 300px;
+    }
+    .sale__sale-section-img2 {
+        width: 311px;
+        height: 276px;
+    }
+    .sale__wheel {
+        width: 311px;
+        height: 367px;
+    }
+    .shop__section-img {
+        width: 292px;
+        height: 259px;
+    }
+    .shop__section {
+        width: 292px;
+    }
+}
